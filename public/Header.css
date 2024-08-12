@@ -1,0 +1,72 @@
+.firstRow{
+    margin-top: 10px;
+display: flex;
+justify-content: space-around;
+box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}
+.newsDiv{
+    width: 760px;
+    height: 100px;
+    padding: 4px;
+    color: black;
+    display: flex;
+   
+    
+}
+.name{
+    font-size: 30px;
+    color: rgb(19, 11, 2);
+}
+.headerNews{
+   
+    font-size: 14px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 300;
+    width: 600px;
+    height: 100px;
+ 
+    text-align: left;
+  
+   box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.secondRow{
+    display: flex;
+    justify-content: space-around;
+    height: 28px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+nav {
+    position: relative;
+}
+ li {
+
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+}
+nav ul li:hover > .submenu-content {
+    display: block;
+  }
+
+  .submenu-content {
+   display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  
+  
+  
+  .submenu-content li a {
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+  }
+  
+  .submenu-content li a:hover {
+    background-color: #ddd;
+    
+  }

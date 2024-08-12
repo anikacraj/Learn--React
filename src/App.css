@@ -1,4 +1,15 @@
-.header{
-    text-align: center;
-    text-decoration: wavy;
-}
+/* App.css */
+.header {
+    color: blue;
+    font-size: 2rem;
+  }
+  .cardDesign{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .content {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+  

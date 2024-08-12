@@ -1,0 +1,13 @@
+.card{
+    background-color: #2900cd;
+    box-shadow: 4px 4px blue;
+    padding: 4px;
+    height: 80px;
+    width: 200px;
+    color: aliceblue;
+    text-align: center;
+}
+.card-tittle{
+    margin-top: 3px;
+    color: gold;
+}
