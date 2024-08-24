@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-
-
+import {FaFacebook,FaAffiliatetheme} from 'react-icons/fa'
 const date =new Date();
  const getDate =date.getDate();
  const getMonth =date.getMonth();
@@ -27,6 +26,8 @@ function Header() {
             <nav>
                 <div className="firstRow">
                     <div className="logo">
+                  <FaFacebook />
+                  <FaAffiliatetheme />
                         <div className="name">Newswire Today</div>
                     </div>
                     <div className="newsDiv">

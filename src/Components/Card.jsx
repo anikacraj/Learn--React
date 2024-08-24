@@ -2,7 +2,6 @@ import React from 'react';
 
 
 
-const cardTitle = "This is a Blue Card";
 
 // function Card() {
 //     return (
@@ -15,10 +14,10 @@ const cardTitle = "This is a Blue Card";
 
 
 function Card(props) {
-    const{header,title} =props;
+    const{name,title} =props;
     return (
         <div className="card">
-          {header} 
+         {name}
             <div className="card-title">{title}</div>
         </div>
     );

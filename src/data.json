@@ -1,15 +1,17 @@
 [
     {
-        "header" :"Green Card",
+        "name" :"Green Card",
         "title" :"This is a green card"
         
     },
     {
-        "header" :"Blue Card",
+        "name" :"Blue Card",
         "title" :"This is a blue card"
     },
     {
-        "header" :"Orange Card",
+        "name" :"Orange Card",
         "title" :"This is a orange card"
     }
 ]
+
+
